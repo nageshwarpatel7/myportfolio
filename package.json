@@ -4,7 +4,7 @@
   "description": "Personal portfolio website",
   "main": "index.html",
   "scripts": {
-    "start": "echo 'This is a static site'",
+    "start": "live-server Nageshwar",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,5 +13,8 @@
     "personal"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
